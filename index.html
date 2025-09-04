@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page - APEC</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .login-container {
+            background: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            width: 350px;
+            text-align: center;
+        }
+        .login-container img {
+            width: 120px;
+            margin-bottom: 20px;
+        }
+        .login-container h2 {
+            margin-bottom: 20px;
+            color: #b30000;
+        }
+        .login-container input[type="text"], 
+        .login-container input[type="password"] {
+            width: 90%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+        .login-container input[type="submit"] {
+            background-color: #b30000;
+            color: white;
+            padding: 10px;
+            width: 95%;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .login-container input[type="submit"]:hover {
+            background-color: #800000;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <!-- Insert College Logo -->
+        <img src="apec.webp" alt="APEC Logo">
+        <h2>Student Login</h2>
+        <form>
+            <input type="text" placeholder="Enter Username" required><br>
+            <input type="password" placeholder="Enter Password" required><br>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+</body>
+</html>
